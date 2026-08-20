@@ -1,0 +1,392 @@
+<?php
+return [
+    // General UI
+    'menu'        => 'Menu',
+    'navigation'  => 'Navigation',
+    'user'        => 'User',
+    'account'     => 'Account',
+    'logout'      => 'Logout',
+    'guest'       => 'Guest',
+    'login'       => 'Login',
+    'home'        => 'Home',
+    'back'        => 'Back',
+    'close'       => 'Close',
+
+    // Errors & Messages (global)
+    'error_generic_title'   => 'Sorry, something went wrong',
+    'error_generic_message' => 'Our technical team has been notified. Please try again later.',
+    'application_error'     => 'Application Error',
+    'fatal_error'           => 'Fatal Error',
+    'method_not_allowed'    => 'Method Not Allowed',
+    'security_check_failed' => 'Security check failed.',
+    'reference_id'          => 'Reference ID',
+
+    // Home
+    'home_title'   => 'Defence Credit Card Portal',
+    'hello_user'   => 'Hello, <strong>:user</strong>.',
+
+    // Auth / Login
+    'username_label'              => 'Username',
+    'password_label'              => 'Password',
+    'login_title'                 => 'Login',
+    'login_submit'                => 'Login',
+    'username_password_required'  => 'Username and password are required.',
+    'invalid_login'               => 'Invalid username or password.',
+    'account_disabled'            => 'Account is disabled.',
+    'welcome_user'                => 'Welcome, :user!',
+    'session_expired_idle'        => 'Your session expired after inactivity.',
+    'session_expired_absolute'    => 'Your session timed out due to the maximum allowed duration.',
+    'logged_out'                  => 'You have been logged out.',
+    'please_login'                => 'Please log in.',
+    'login_password_notice'       => 'Your password is never stored by the browser.',
+
+    // Account & Access
+    'account_access'        => 'Account & Access',
+    'account_access_intro'  => 'View your current roles and permissions. Use Refresh Access to re-sync from the database.',
+    'user_id'               => 'User ID',
+    'last_refreshed'        => 'Last refreshed',
+    'not_refreshed_yet'     => '(not refreshed yet)',
+    'roles'                 => 'Roles',
+    'no_roles_in_session'   => 'No roles in session.',
+    'permissions'           => 'Permissions',
+    'no_perms_in_session'   => 'No permissions in session.',
+    'refresh_access'        => 'Refresh Access',
+    'access_refreshed'      => 'Access refreshed',
+    'at_time'               => 'at :time',
+    'db_label'              => 'DB',
+    'back_to_account'       => 'Back to Account',
+    'before'                => 'Before',
+    'after'                 => 'After',
+    'none'                  => 'None',
+    'added'                 => 'Added',
+    'removed'               => 'Removed',
+    'refresh_again'         => 'Refresh Again',
+
+    // System Settings
+    'system_settings'       => 'System Settings',
+    'settings'              => 'Settings',
+    'key'                   => 'Key',
+    'value'                 => 'Value',
+    'type'                  => 'Type',
+    'description'           => 'Description',
+    'updated_by'            => 'Updated By',
+    'updated_at'            => 'Updated At',
+    'action'                => 'Action',
+    'save'                  => 'Save',
+    'string'                => 'String',
+    'bool'                  => 'Boolean',
+    'int'                   => 'Integer',
+    'json'                  => 'JSON',
+    'missing_setting_key'   => 'Missing setting key.',
+    'setting_saved'         => "Setting ':key' saved.",
+    'save_failed_detail'    => 'Save failed: :msg',
+
+    // Diagnostics
+    'diagnostics_title'          => 'System Diagnostics',
+    'diagnostics_database'       => 'Database',
+    'diagnostics_log_test'       => 'Log Test',
+    'diagnostics_mail_test'      => 'Mail Test',
+    'diagnostics_force_db_error' => 'Force DB Error',
+    'send_test_email'            => 'Send Test Email',
+    'trigger_db_error'           => 'Trigger DB Error',
+    'log_entries_written'        => 'Entries written to app.log',
+
+    // Status
+    'ok'       => 'OK',
+    'fail'     => 'Fail',
+    'error'    => 'Error',
+    'enabled'  => 'Enabled',
+    'disabled' => 'Disabled',
+
+    // Slow Request
+    'slow_request_threshold'      => 'Slow Request Threshold',
+    'slow_request_alerts_enabled' => 'Slow Request Alerts',
+
+    // Cards
+    'my_existing_cards'       => 'My Existing Cards',
+    'my_cards'                => '',
+    'cards_intro'             => 'Manage your existing cards (view details, request address or limit changes, or cancel) and apply for new cards.',
+    'apply_now'               => 'Apply Now',
+    'cards_not_held'          => 'Currently not held',
+    'make_change'             => 'Edit Card',
+    'cancel_card'             => 'Cancel Card',
+    'view_history'             => 'Card History',
+    'cards_active_hint'             => 'Card is Active',
+    'support'             => 'Defence Credit Card Support',
+    'support_contact'             => 'DEFENCE Credit Card Contact Details',
+    'edit_address'             => 'Edit Postal Address',
+    'request_limit_change'     => 'Request Limit Change',
+    'no_cards_found'     => 'You currently have no active cards.  To apply for a new card press the Apply Now button.',
+    'address'     => 'Postal Address',
+    'limit'     => 'Credit Limit',
+    'view_application'     => 'View Application',
+
+    // Menu Labels
+    'menu_home'               => 'Existing Cards',    
+    'menu_strategy'           => 'Strategy',
+    'menu_strategy_overview'  => 'Overview',
+    'menu_fiscal'             => 'Fiscal Framework',
+    'menu_fiscal_overview'    => 'Overview',
+    'menu_fiscal_envelope'    => 'Envelope',
+    'menu_fiscal_ceilings'    => 'Ceilings',
+    'menu_estimates'          => 'Estimates',
+    'menu_rates'              => 'Rates',
+    'menu_budgets'            => 'Budgets',
+    'menu_execution'          => 'Execution',
+    'menu_execution_warrants' => 'Warrants',
+    'menu_execution_realloc'  => 'Reallocation',
+    'menu_execution_virements'=> 'Virements',
+    'menu_reports'            => 'Reports',
+    'menu_analytics'          => 'Analytics',
+    'menu_admin'              => 'Administration',
+    'menu_users'              => 'Users',
+    'menu_roles'              => 'Roles & Permissions',
+    'menu_audit'              => 'Audit Log',
+    'menu_diagnostics'        => 'Diagnostics',
+    'menu_session_vars'       => 'Session Variables',
+    'menu_logs'               => 'Logs',
+    'menu_app_log'            => 'Application Log',
+    'menu_app_log_archives'   => 'Application Log Archives',
+    'menu_error_log'          => 'Error Log',
+    'menu_php_error'          => 'PHP Error Log',
+    'menu_php_error_archives' => 'PHP Error Archives',
+    'menu_config'             => 'Configuration',
+    'menu_config_syssettings' => 'System Settings',
+    'menu_config_rates'       => 'Rates',
+    // New for health screen in the menu (optional)
+    'menu_health_check'       => 'Health Check',
+
+    // Audit List (filters, table, pagination)
+    'audit_log_title' => 'Audit Log',
+    'filters'         => 'Filters',
+    'search'          => 'Search',
+    'entity'          => 'Entity',
+    'all'             => 'All',
+    'start_date'      => 'Start Date',
+    'end_date'        => 'End Date',
+    'page_size'       => 'Page size',
+    'apply'           => 'Apply',
+    'reset'           => 'Reset',
+    'event_time'      => 'Event Time',
+    'details'         => 'Details',
+    'ip'              => 'IP',
+    'fiscal_year'     => 'Fiscal Year',
+    'version'         => 'Version',
+    'view'            => 'View',
+    'prev'            => 'Prev',
+    'next'            => 'Next',
+
+    // Health Check (base)
+    'health_check'     => 'Health Check',
+    'environment'      => 'Environment',
+    'version'          => 'Version',
+    'server_time'      => 'Server Time',
+    'database_status'  => 'Database Status',
+    'healthy'          => 'Healthy',
+    'unhealthy'        => 'Unhealthy',
+    'actions'          => 'Actions',
+    'refresh'          => 'Refresh',
+    'view_json'        => 'View JSON',
+
+    // Health Check (extended / checks list)
+    'overall_status'   => 'Overall Status',
+    'created_at'       => 'Created at',
+    'request_id_short' => 'Req ID',
+    'checks'           => 'Checks',
+    'status'           => 'Status',
+    'message'          => 'Message',
+    'meta'             => 'Meta',
+    'pass'             => 'Pass',
+    'degraded'         => 'Degraded',
+    'unknown'          => 'Unknown',
+    'optional'         => 'Optional',
+    'skipped'          => 'Skipped',
+    'value'            => 'Value',
+    'menu_health'        => 'Health Check',
+    'menu_health_check'  => 'Health Check', // optional alias
+
+    // Individual check labels
+    'php_extensions'      => 'PHP extensions',
+    'log_dir_writable'    => 'Log directory writable',
+    'session_roundtrip'   => 'Session read/write',
+    'disk_free_space'     => 'Disk free space',
+    'database_latency'    => 'Database latency',
+    'time_drift'          => 'DB vs App time drift',
+    'smtp_reachability'   => 'SMTP reachability',
+    'debug_sanity_check'  => 'Debug mode sanity',
+
+    // Common meta labels for checks
+    'driver'          => 'Driver',
+    'required'        => 'Required',
+    'path'            => 'Path',
+    'min_required_mb' => 'Min required (MB)',
+    'db_epoch_sec'    => 'DB epoch (sec)',
+    'php_epoch_sec'   => 'PHP epoch (sec)',
+    'threshold_sec'   => 'Threshold (sec)',
+
+    'too_many_attempts'   => 'Too many attempts. Try again in :minutes minute(s).',
+    'remaining_attempts'  => ':count attempt(s) left.',
+    'unlock_login'        => 'Unlock Login',
+    'ip_optional'         => 'IP (optional)',
+    'lock_reset_success'  => 'Login lock reset for :user (:count item(s) removed).',
+    'lock_reset_fail'     => 'Unlock failed: :msg',
+    'unlock_help'         => 'Clears throttle/lock entries for this username. Specify IP to clear only that IP; leave blank to clear all IPs for the user.',
+
+    'account_locked_permanent' => 'Your account has been permanently locked. Please contact an administrator.',
+
+    'email'              => 'Email',
+    'last_login'         => 'Last Login',
+    'last_login_ip'      => 'Last Login IP',
+    'failed_attempts'    => 'Failed Attempts',
+    'last_failed_login'  => 'Last Failed Login',
+    'force_reset'        => 'Force Reset',
+    'yes'                => 'Yes',
+    'no'                 => 'No',
+    'edit'               => 'Edit',
+    'confirm_unlock_user'=> 'Are you sure you want to unlock this user?',
+
+    'active'        => 'Active',
+    'date_created'  => 'Date Created',
+    'date_updated'  => 'Date Updated',
+
+    // ==========================
+// Users (Admin screens)
+// ==========================
+'menu_users'             => 'Users',
+'create_user'            => 'Create User',
+'edit_user'              => 'Edit User',
+'user_created'           => "User ':user' created.",
+'user_updated'           => "User ':user' updated.",
+'user_save_failed'       => 'User save failed',
+'invalid_user'           => 'Invalid user',
+
+// User fields
+'first_name'             => 'First Name',
+'last_name'              => 'Last Name',
+'display_name'           => 'Display Name',
+'phone'                  => 'Phone',
+'department'             => 'Department',
+'job_title'              => 'Job Title',
+'notes'                  => 'Notes',
+'role'                   => 'Role',
+'must_change_password'   => 'Must Change Password',
+'force_password_reset'   => 'Force Password Reset',
+'is_2fa_enabled'         => '2FA Enabled',
+'tfa_method'             => '2FA Method',
+
+// User list filters & pagination
+'all_departments'        => 'All Departments',
+'all_status'             => 'All Status',
+'filter'                 => 'Filter',
+'no_records_found'       => 'No records found',
+'showing'                => 'Showing',
+'of'                     => 'of',
+'users'                  => 'users',
+
+// Account status badges
+'account_status'         => 'Account Status',
+'active'                 => 'Active',
+'disabled'               => 'Disabled',
+'locked_until'           => 'Locked until',
+'permanently_locked'     => 'Permanently Locked',
+
+// Buttons / actions
+'save'                   => 'Save',
+'back'                   => 'Back',
+'action'                 => 'Action',
+'unlock_login'           => 'Unlock Login',
+'confirm_unlock_user'    => 'Are you sure you want to unlock this user?',
+
+'access_denied'                => 'Access denied',
+'access_denied_missing_any'    => 'Access denied (missing one of: :perms)',
+'access_denied_missing_all'    => 'Access denied (missing all of: :perms)',
+
+// Extra keys for PDF reports
+'user_details'           => 'User Details',
+'user_meta_data'         => 'User Meta Data',
+'assign_roles'           => 'Assigned Roles',
+'assigned'               => 'Assigned',
+'user_report'            => 'User Report',
+'generated_by'           => 'Generated By',
+'generated_on'           => 'Generated On',
+
+
+    // ==========================================
+    // Data Object Codes (Admin screens) + i18n
+    // ==========================================
+
+    // Page Titles / Headers
+    'docodes_title'        => 'Data Object Codes',
+    'docodes_edit_title'   => 'Edit Data Object Code',
+    'docodes_add_title'    => 'Add Data Object Code',
+
+    // List Filters / Placeholders
+    'docodes_search_ph'    => 'Search code / name / description',
+    'all_types'            => 'All Types',
+
+    // Table Column Labels (reusing existing where possible)
+    'code'                 => 'Code',
+    'name'                 => 'Name',
+    'parent'               => 'Parent',
+    'parent_code'          => 'Parent Code',
+    'type_id'              => 'TypeID',
+    'updated'              => 'Updated',
+    'records'              => 'records',
+
+    // Actions / Buttons (common additions)
+    'add'                  => 'Add',
+    'delete'               => 'Delete',
+    'back_to_list'         => 'Back to List',
+    'pagination'           => 'Pagination',
+    'page'                 => 'page',
+    'this_item'            => 'this item',
+    'confirm_delete'       => 'Delete',
+    'confirm_delete_item'  => 'Are you sure you want to delete',
+    'cannot_undo'          => 'This action cannot be undone.',
+
+    // Status (extend set)
+    'inactive'             => 'Inactive',
+
+    // Form placeholders/help/errors
+    'docodes_code_ph'      => 'e.g. DEP001',
+    'docodes_code_help'    => 'Max 20 chars. Letters, numbers, underscore, dash, dot.',
+    'docodes_code_invalid' => 'Please enter a valid code.',
+    'docodes_name_ph'      => 'e.g. Department of Education',
+    'docodes_name_invalid' => 'Name is required (max 100 characters).',
+    'docodes_parent_help'  => 'Must be a valid code in the same Fiscal Year. Leave blank for top level.',
+    'docodes_parent_invalid'=> 'Invalid parent code.',
+    'docodes_type_invalid' => 'Please select a type.',
+    'docodes_status_invalid'=> 'Please choose a valid status.',
+    'docodes_desc_invalid' => 'Invalid description.',
+    'docodes_parent_same'  => 'Parent cannot be the same as the code.',
+
+    // Hints
+    'docodes_create_hint'  => 'Creating a new code for the current Fiscal Year context.',
+    'docodes_edit_hint'    => 'Editing :code. Changes apply to the current Fiscal Year context.',
+    'docode'               => 'Data Object Code',
+
+    // help
+    'help_default_title'         => 'CBMSv21 – General Help',
+    'help_default_intro'         => 'This page provides an overview of the CBMSv21 layout and the Home dashboard.',
+    'help_default_topnav'        => 'Top Navigation Bar',
+    'help_default_menu'          => 'Menu – Opens the left-hand navigation sidebar.',
+    'help_default_fy'            => 'Fiscal Year – Select the active fiscal year.',
+    'help_default_version'       => 'Version – Choose the version within the selected Fiscal Year.',
+    'help_default_scope'         => 'Data Scope – Choose the reporting context (department/entity).',
+    'help_default_lang'          => 'Language – Switch the interface language.',
+    'help_default_user'          => 'User Section – Shows your username and quick links (Account, Logout, Help).',
+    'help_default_sidebar'       => 'Sidebar Menu (Navigation)',
+    'help_default_sidebar_text'  => 'The sidebar provides access to modules, based on your roles and permissions.',
+    'help_default_flash'         => 'Flash Messages',
+    'help_default_flash_text'    => 'Messages appear above content and auto-dismiss for info/success.',
+    'help_default_content'       => 'Main Content Area',
+    'help_default_content_text'  => 'Displays the screen you are working on (e.g., Users, Rates, Workflow).',
+    'help_default_home'          => 'Home Dashboard',
+    'help_default_welcome'       => 'Welcome message greets you by name.',
+    'help_default_tasks'         => 'My Open Tasks shows assigned open tasks.',
+    'help_default_iframe'        => 'Task list is embedded; use View All to see full workflow list.',
+    'help_default_helpbtn'       => 'Help Button',
+    'help_default_helpbtn_text'  => 'Opens context-sensitive help. If no page-specific help exists, this page appears.',
+    'help_default_tip'           => 'Use the Help button anywhere for page-specific guidance.',
+
+];

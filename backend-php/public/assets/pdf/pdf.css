@@ -1,0 +1,78 @@
+/* ===== Base ===== */
+body {
+  font-family: "Segoe UI", Calibri, Helvetica, Arial, sans-serif;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  color: #0f172a;
+}
+
+h2, h3, h4 {
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+  color: #111827;
+}
+
+p.meta {
+  font-size: 10px;
+  color: #6b7280;
+  margin: 0 0 15px 0;
+}
+
+/* ===== Table Styling ===== */
+table {
+  width: 100%;
+  border-collapse: collapse; /* ensure tight borders */
+  border: 1px solid #9ca3af; /* outer border */
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+
+th, td {
+  border: 1px solid #9ca3af; /* all internal cell borders */
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Optional: Zebra striping, can remove if you want solid */
+tbody tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+/* ===== Sections ===== */
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 20px 0 10px 0;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #d1d5db;
+}
+
+/* ===== Utilities ===== */
+.nowrap { white-space: nowrap; }
+.num { text-align: right; }
+.code { font-family: Consolas, monospace; font-size: 10px; }
+
+/* ===== Page Handling ===== */
+.page-break {
+  page-break-after: always;
+}
