@@ -106,7 +106,8 @@ if (!function_exists('makePdo')) {
             $options[PDO::SQLSRV_ATTR_ENCODING] = PDO::SQLSRV_ENCODING_UTF8;
         }
 
-        return new PDO($dsn, $user, $pass, $options);
+        // Empty user => Windows integrated auth (pdo_sqlsrv expects null credentials for that)
+        return new PDO($dsn, $user !== '' ? $user : null, $user !== '' ? $pass : null, $options);
     }
 }
 
